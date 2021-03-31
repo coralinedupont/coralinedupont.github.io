@@ -1,1 +1,60 @@
-h1 { color: red;}
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600&family=Lato&display=swap');
+
+body{
+  background-color: #ffffff;
+  font-family:'Blinker', sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  color: #b08968;
+  font-size:60px;
+  text-align:center;
+}
+
+h2 {
+  color: #9c6644;
+  font-size:30px;
+  text-align:center;
+}
+
+h3 {
+  color: #9c6644;
+  font-size: 20px;
+}
+
+h2,h3 {
+  font-family:'Lato', sans-serif;
+}
+
+.hero{
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/2283757/pexels-photo-2283757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
+.exemple2 h1{
+  background-color: #ede0d4;  
+}
+
+.card {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+  background-color: #ede0d4;
+}
+
+}
+.card:hover{
+  box-shadow: 11px 13px 0px rgb(0 0 0 / 10%);
+}
